@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Comfortaa&family=Inter:wght@300&family=Noto+Sans:wght@200&family=Open+Sans:wght@600&family=Oswald&family=Rubik+Dirt&family=Rubik+Iso&display=swap');
+
+.block{
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.block__menu{
+    display: flex;
+    align-items: center;
+}
+
+.block__menu__icon{
+    width: 32px;
+    height: 32px;
+    background-image: url('../icon/menu.png');
+}
+
+.block__menu__text{
+    margin-left: 10px;
+}
+
+.block_icon{
+    margin: 15px;
+    width: 32px;
+    height: 32px;
+}
+
+.block_icon:nth-child(1){
+    background-image: url('../icon/sertch.png');
+}
+
+.block_icon:nth-child(2){
+    background-image: url('../icon/people.png');
+}
+
+.block_icon:nth-child(3){
+    background-image: url('../icon/telega.png');
+}
+
+.block_icon:nth-child(4){
+    background-image: url('../icon/heard.png');
+}
+
+.block__text{
+    font-size: 40px;
+    font-family: 'Aboreto', cursive;
+}
+
+
+.block__column{
+    display: flex;
+}
