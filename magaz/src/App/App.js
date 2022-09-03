@@ -1,7 +1,6 @@
 import Katalog from "../katalog-app/katalog-app";
-import KatalogItem from "../katalog-item/katalog-item";
 import Menu from "../Menu-app/menu-app";
-
+import CarouselFadeExample from "../slider-app/slider-app";
 
 function App() {
   const data =[
@@ -18,7 +17,7 @@ function App() {
     <div className="App">
       
       <Menu/>
-
+      <CarouselFadeExample/>
       <Katalog data={data}/>
 
     </div>
