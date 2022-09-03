@@ -17,7 +17,6 @@ function App() {
     <div className="App">
       
       <Menu/>
-      <CarouselFadeExample/>
       <Katalog data={data}/>
 
     </div>
