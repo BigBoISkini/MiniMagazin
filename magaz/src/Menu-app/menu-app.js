@@ -8,10 +8,10 @@ const Menu = () => {
             </div>
             <div className='block__text'>MONO</div>
             <div className='block__column' >
-                <div className='block_icon sertch' ></div>
-                <div className='block_icon people' ></div>
-                <div className='block_icon telega' ></div>
-                <div className='block_icon like' ></div>
+                <div className='block_icon sertch'></div>
+                <div className='block_icon people'></div>
+                <div className='block_icon telega'></div>
+                <div className='block_icon like'></div>
             </div>
         </div>
     )
