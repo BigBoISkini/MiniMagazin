@@ -15,6 +15,7 @@
 }
 
 .slider__img{
+    position: relative;
     width: 600px;
     height: 400px;
     border: 1px solid red;
@@ -39,6 +40,7 @@
 
 
 #button__left{
+    z-index: 99999999999;
     position: absolute;
     width: 60px;
     height: 60px;
@@ -51,3 +53,38 @@
     height: 60px;
     right: 20px;
 }
+
+.carous__block{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    min-width: 100%;
+    height: 520px;
+    align-items: center;
+}
+
+.carous{
+    width: 820px;
+    height: 100%;
+}
+
+.carous__item{
+    height: 500px;
+    background-size: 820px;
+}
+
+.carous__item:nth-child(1){
+    background-image: url('https://static.insales-cdn.com/r/uQBURpZ2nt8/rs:fit:1920:0:1/q:100/plain/files/1/4051/17313747/original/Frame_09761910f597c1561ea0e41464f29985.jpg');
+}
+
+.carous__item:nth-child(2){
+    background-image: url("https://static.insales-cdn.com/r/ilYlNvgJDUI/rs:fit:1920:0:1/q:100/plain/files/1/4052/17313748/original/Frame-1_3c4eb67d2a9718e65160f8070c8881bf.jpg");
+}
+
+.carous__item:nth-child(3){
+    background-image: url("https://static.insales-cdn.com/r/KVgH4BIwoGI/rs:fit:1920:0:1/q:100/plain/files/1/4053/17313749/original/222_df9e583e34b266318ac1cdeeb4a48d7e.jpg");
+}
+
+
+
+

@@ -1,5 +1,5 @@
 .grow{
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     min-width: 100%;
     justify-content: center;
@@ -9,7 +9,6 @@
     text-align: center;
     width: 800px;
     height: 800px;
-    border: 1px solid black;
     overflow: hidden;
 
 }
@@ -17,4 +16,16 @@
 .content__column{
     display: flex;
 
+}
+
+.content__lists{
+    display: flex;
+    margin-left: 30px;
+    width: 80%;
+    height: 40px;
+}
+
+.button__lists{
+    list-style: none;
+    margin-right: 10px;
 }
