@@ -1,0 +1,131 @@
+
+
+.growFooter{
+    min-width: 100%;
+    height: 400px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contentFooter{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.growFooter__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.growFooter__img{
+    width: 32px;
+    height: 32px;
+    background-image: url('../icon/magaz.png');
+}
+
+.growFooter__title{
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.growFooter__text{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.growFooter__a{
+    margin-top: 20px;
+}
+
+#Footer__a{
+    color: black;
+}
+
+.footer{
+    display: flex;
+    margin-top: 60px;
+}
+
+.footer__adres{
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.125rem;
+}
+
+.footer__adres:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__adres__title:last-child{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.footer__img{
+    width: 180px;
+    height: 39px;
+    background-image: url('https://static.insales-cdn.com/files/1/2933/14871413/original/Group_8.svg');
+}
+
+.footer__adres__img{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imgF{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-size: 24px 24px;
+}
+
+.imgF:nth-child(1){
+    background-image: url('https://static.insales-cdn.com/files/1/681/16048809/original/fb-4_1e47f39ca506b0b9e11258b2827753de.svg');
+}
+
+.imgF:nth-child(2){
+    background-image: url('https://static.insales-cdn.com/files/1/621/16048749/original/fb-2.svg');
+}
+
+.imgF:nth-child(3){
+    background-image: url('https://static.insales-cdn.com/files/1/1303/14550295/original/yt.svg');
+}
+
+.footer__adres__img:nth-child(2){
+    justify-content: center;
+    align-items: center;
+}
+
+.kard{
+    margin-left: 10px;
+}
+
+.kard:nth-child(1){
+    width: 39px;
+    height: 24px;
+    background-image: url('https://static.insales-cdn.com/files/1/1311/14550303/original/Group.svg');
+}
+
+.kard:nth-child(2){
+    width: 56px;
+    height: 18px;
+    background-image: url('https://static.insales-cdn.com/files/1/1305/14550297/original/Visa.svg');
+}
+
+.kard:nth-child(3){
+    width: 61px;
+    height: 18px;
+    background-image: url('https://static.insales-cdn.com/files/1/1312/14550304/original/mir-logo_1.svg');
+}

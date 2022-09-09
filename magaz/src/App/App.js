@@ -2,6 +2,7 @@ import Katalog from "../katalog-app/katalog-app";
 import Menu from "../Menu-app/menu-app";
 import ControlledCarousel from "../slider-app/slider-app";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "../footer-app/footer-app";
 
 function App() {
   const data =[
@@ -30,6 +31,7 @@ function App() {
       <Menu/>
       <ControlledCarousel/>
       <Katalog data={data} dataSale={dataSale}/>
+      <Footer/>
     </div>
   );
 }
