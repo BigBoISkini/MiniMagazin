@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Comfortaa&family=Inter:wght@300&family=Noto+Sans:wght@200&family=Open+Sans:wght@600&family=Oswald&family=Rubik+Dirt&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Comfortaa&family=Inter:wght@300&family=Noto+Sans:wght@500&family=Open+Sans:wght@600&family=Oswald&family=Rubik&family=Rubik+Dirt&family=Rubik+Iso&family=Ubuntu&display=swap');
+
 
 .block{
     display: flex;
@@ -15,6 +17,7 @@
 }
 
 .block__menu__icon{
+    cursor: pointer;
     width: 28px;
     height: 28px;
     background-image: url('../icon/menu.png');
@@ -71,5 +74,124 @@
 }
 
 .block__menu__text{
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+/* меню бургер */
+
+.opas{
+    display: none;
+}
+
+@keyframes goburger {
+    from {
+        margin-left: -700px;
+    }
+
+    to {
+        
+    }
+
+}
+
+.burger{
+    position: fixed;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+    z-index: 9999999;
+}
+
+.backgoundMenu{
+    animation: backgroun 0.4s 1;
+    width: 63.3%;
+    right: 0px;
+    height: 200%;
+    background-color: darkgray;
+    opacity: 0.4;
+    position: absolute;
+}
+
+@keyframes backgroun {
+    from{
+        opacity: 0;
+    }
+
+    to {
+
+    }
+}
+
+.menu{
+    flex-direction: column;
+    animation: goburger 0.2s linear;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    width: 700px;
+    height: 200%;
+    background-color: white;
+}
+
+.burger__content{
+    margin-top: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.burger__box{
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    border-color: #f1c40f;
+    color: black;
+    background-image: -webkit-linear-gradient(45deg, black 50%, transparent 50%);
+    background-image: linear-gradient(45deg, black 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 600ms ease-in-out;
+    transition: background 270ms ease-in-out;
+
+    border-radius: 20px;
+    margin-top: 10px;
+    align-items: center;
+    width: 500px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+
+.burger__box:hover{
+    background-position: 0;
+    color: white;
+}
+
+.menu__contact__info{
+    position: absolute;
+    bottom: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.block__contact{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    height: 50px;
+}
+
+.block__contact:nth-child(1){
+    width: 180px;
+    height: 38px;
+    background-image: url('https://static.insales-cdn.com/files/1/2933/14871413/original/Group_8.svg');
 }
