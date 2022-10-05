@@ -3,10 +3,10 @@ import KatalogItem from '../katalog-item/katalog-item';
 
 
 
-const Katalog = ({data}) => {
+const Katalog = ({data, onShet}) => {
             const elements = data.map(item => {
                 return (
-                    <KatalogItem {...item}/>
+                    <KatalogItem {...item} onShet={() => onShet()}/>
                 )
             })
             return(

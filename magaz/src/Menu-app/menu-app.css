@@ -51,6 +51,26 @@
     background-image: url('../icon/people.png');
 }
 
+.schet{
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 24px;
+    left: 20px;
+    font-size: 12px;
+
+}
+
+.opasSchet{
+    opacity: 0;
+}
+
 .block_icon:nth-child(3){
     background-image: url('../icon/telega.png');
 }

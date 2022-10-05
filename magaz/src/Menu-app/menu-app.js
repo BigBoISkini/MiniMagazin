@@ -17,13 +17,20 @@ class Menu extends Component{
         }))
     }
 
+
     render() {
         const {increse} = this.state;
+        const {schet} = this.props;
 
         let className = 'burger';
+        let ClassNameSchet = 'schet';
 
         if (increse) {
             className += ' opas';
+        }
+
+        if (schet < 1) {
+            ClassNameSchet += ' opasSchet';
         }
 
         return (
@@ -59,9 +66,9 @@ class Menu extends Component{
                 <div className='block__text g'></div>
                 <div className='block__column' >
                     <input className='block_icon sertch'type='button'></input>
-                    <a href='../people-app/people-app.js'  className='block_icon'></a>
-                    <a href='' className='block_icon'></a>
-                    <a href='' className='block_icon'></a>
+                    <div className='block_icon'></div>
+                    <div className='block_icon'><div className={ClassNameSchet}>{schet}</div></div>
+                    <div className='block_icon'></div>
                 </div>
             </div>
         )

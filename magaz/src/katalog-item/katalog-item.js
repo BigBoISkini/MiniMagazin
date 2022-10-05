@@ -1,6 +1,8 @@
+
 import './katalog-item.css';
 
-const KatalogItem = ({img, price, description}) => {
+const KatalogItem = ({img, price, description, onShet}) => {
+
         return(
             <div className="content__item">
                 <div className="content__item__img"><img className="item__img" src={img} alt='упс..'></img></div>
@@ -8,7 +10,7 @@ const KatalogItem = ({img, price, description}) => {
 
                 <div className='mini__grow'>
                 <div className="content__item__prise">{price}</div>
-                <div className='content__item__box'></div>
+                <div className='content__item__box' onClick={onShet}></div>
                 </div>
 
             </div>

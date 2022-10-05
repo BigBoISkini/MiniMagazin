@@ -1,6 +1,6 @@
 .content__item{
     display: inline-block;
-    width: 170px;
+    width: 200px;
     height: 270px;
     margin: 10px;
 
@@ -9,7 +9,7 @@
 .mini__grow{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .item__img{
@@ -36,11 +36,17 @@
 .content__item__box{
     border-radius: 10px;
     margin-top: 7px;
-    width: 32px;
-    height: 32px;
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
     background-image: url('../icon/packet.png');
 }
 
 .content__item__box:hover{
     cursor: pointer;
 }
+
+.content__item__box:active{
+    
+}
+
